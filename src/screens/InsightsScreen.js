@@ -28,7 +28,7 @@ const InsightsScreen = ({navigation}) => {
       <TouchableOpacity
         style={styles.buttonStyle}
         onPress={() => navigation.navigate('RenewableAlternatives')}>
-        <Text style={styles.buttonTextStyle}>Use Reusable alternatives</Text>
+        <Text style={styles.buttonTextStyle}>Use Renewable Alternatives</Text>
       </TouchableOpacity>
     </View>
   );
